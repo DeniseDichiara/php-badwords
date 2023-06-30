@@ -1,5 +1,5 @@
 <?php 
-$saluto = 'ciao';
+$saluto = 'Ciao';
 //*commento inphp
 ?>
 
@@ -17,9 +17,21 @@ $saluto = 'ciao';
     <body>
 
         <h1>
-            <?php echo $saluto ?> , benvenuto in php!
+            <?php echo $saluto ?>, benvenuto in php!
         </h1>
         
+
+        <form action="./server.php" method="GET">
+            <input type="text" name="paragraph">
+            <input type="text" name="censored">
+
+            <button type="submit"> 
+                invia dati 
+            </button>
+        </form>
+
+
+
         <script src="" async defer></script>
     </body>
 </html>
