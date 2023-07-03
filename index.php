@@ -22,8 +22,11 @@ $saluto = 'Ciao';
         
 
         <form action="./server.php" method="GET">
-            <input type="text" name="paragraph">
-            <input type="text" name="censored">
+            <label for="user-paragraph"></label>
+            <textarea name="userParagraph" id="user-paragraph" col="30" rows="10"></textarea>
+
+            <label for="user-paragraph"></label>
+            <input type="text" name="censored" id="user-censored">
 
             <button type="submit"> 
                 invia dati 
