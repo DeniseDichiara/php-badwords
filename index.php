@@ -22,15 +22,17 @@ $saluto = 'Ciao';
         
 
         <form action="./server.php" method="GET">
-            <label for="user-paragraph"></label>
+            <label for="user-paragraph">
+                Insert a pareagraph to be censored
+            </label>
             <textarea name="userParagraph" id="user-paragraph" col="30" rows="10"></textarea>
 
-            <label for="user-paragraph"></label>
+            <label for="user-paragraph">
+                Insert a badword to censor 
+            </label>
             <input type="text" name="censored" id="user-censored">
 
-            <button type="submit"> 
-                invia dati 
-            </button>
+            <input type="submit" value="Send">
         </form>
 
 
