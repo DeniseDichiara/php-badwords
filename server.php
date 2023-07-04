@@ -32,6 +32,9 @@ $censoredParagraph = str_replace($censored, '*', $paragraph);
     <p>
         "<?php echo $paragraph; ?>"
     </p>
+    <p>
+        Original paragraph lenght: <?php echo strlen($paragraph);  ?>
+    </p>
 
 
     <h2>
@@ -44,7 +47,7 @@ $censoredParagraph = str_replace($censored, '*', $paragraph);
     </p>
 
     <p>
-        New paragraph lenght: <?php echo strlen($censoredParagraph);  ?>
+        Censored paragraph lenght: <?php echo strlen($censoredParagraph);  ?>
     </p>
 
 
