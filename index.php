@@ -9,7 +9,7 @@ $saluto = 'Ciao';
     <head lang="en">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Php Intro</title>
+        <title>Php-badwords</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
@@ -21,7 +21,7 @@ $saluto = 'Ciao';
         </h1>
         
 
-        <form action="./server.php" method="GET">
+        <form action="./server.php" method="get">
             <label for="user-paragraph">
                 Insert a pareagraph to be censored
             </label>

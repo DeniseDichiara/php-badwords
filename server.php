@@ -4,7 +4,7 @@ $paragraph = $_GET['userParagraph'];
 
 $censored = $_GET['censored'];
 
-$censoredParagraph = str_replace($badword, '*', $paragraph);
+$censoredParagraph = str_replace($censored, '*', $paragraph);
 
 ?>
 
@@ -30,9 +30,7 @@ $censoredParagraph = str_replace($badword, '*', $paragraph);
         Original paragraph:
     </h2>
     <p>
-        <?php
-        echo $paragraph
-        ?>
+        "<?php echo $paragraph; ?>"
     </p>
 
 
